@@ -76,18 +76,20 @@ GEM
     kitchen-vagrant (0.15.0)
       test-kitchen (~> 1.0)
     mime-types (2.4.3)
-    mini_portile (0.6.1)
+    mini_portile2 (2.5.1)
     mixlib-shellout (1.6.1)
     multi_json (1.10.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
-    nokogiri (1.6.5)
-      mini_portile (~> 0.6.0)
+    nokogiri (1.11.5)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     opennebula (4.10.1)
       json
       nokogiri
       rbvmomi
+    racc (1.5.2)
     rake (10.4.2)
     rbvmomi (1.8.2)
       builder
